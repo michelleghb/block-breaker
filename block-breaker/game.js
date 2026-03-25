@@ -57,7 +57,7 @@ function initBlocks() {
 }
 
 function drawPaddle() {
-  ctx.fillStyle = '#4ECDC4';
+  ctx.fillStyle = '#061312';
   ctx.fillRect(paddle.x, paddle.y, paddle.width, paddle.height);
   ctx.strokeStyle = '#3BB4AC';
   ctx.lineWidth = 2;
@@ -67,9 +67,9 @@ function drawPaddle() {
 function drawBall() {
   ctx.beginPath();
   ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
-  ctx.fillStyle = 'rgb(151, 9, 9)';
+  ctx.fillStyle = 'rgb(9, 151, 63)';
   ctx.fill();
-  ctx.strokeStyle = '#FFD43B';
+  ctx.strokeStyle = '#523bff';
   ctx.lineWidth = 2;
   ctx.stroke();
   ctx.closePath();
